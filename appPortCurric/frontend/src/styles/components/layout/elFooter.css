@@ -1,0 +1,20 @@
+.elFooter {
+    display: flex;
+    justify-content: center;
+    font-family: Orbitron;
+    justify-content: center;
+    border: solid 2px green;
+    font-size: 40px;
+}
+
+.elFooter p {
+    color: white;
+}
+
+.contenFooter {
+    display: flex;
+    justify-content: center;
+    border: solid 2px red;
+    background: rgb(252,252,252);
+background: linear-gradient(90deg, rgba(252,252,252,1) 0%, rgba(0,0,0,1) 40%, rgba(0,0,0,1) 60%, rgba(252,252,252,1) 100%, rgba(255,255,255,1) 100%);
+}

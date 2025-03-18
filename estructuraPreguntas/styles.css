@@ -1,0 +1,72 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Contenedor principal */
+#counter {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Estilos de la pregunta */
+#elide {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Contenedor de opciones */
+.preguntas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+/* Estilo para cada opción */
+.preguntas input[type="radio"] {
+    margin-right: 10px;
+}
+
+.preguntas label {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+/* Botón Enviar */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Mensajes de respuesta */
+#elide {
+    text-align: center;
+}
+
+/* Estilo para el final del cuestionario */
+#final {
+    font-size: 20px;
+    font-weight: bold;
+    color: #4CAF50;
+    text-align: center;
+}

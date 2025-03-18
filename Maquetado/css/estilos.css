@@ -1,0 +1,294 @@
+img {
+    border-radius: 10px;
+}
+
+header {
+    padding: 10px;
+    text-align: center;
+    background-image: url(../Imagenes/backheader.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header h1 {
+    font-size: 40px;
+    margin: 0 0 20px;
+    font-family: "Bebas Neue", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header h2 {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: italic;
+    padding: 0 0 5px;
+    font-size: 20px;
+}
+
+header div {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 7px;
+    border-radius: 12px;
+    color: white;
+}
+
+.barnav {
+    display: flex;
+    justify-content: center;
+    background-color: grey;
+}
+
+.barnav a {
+    color: white;
+    padding: 15px 20px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.barnav a:hover {
+    background-color: darkslategrey;
+}
+
+.barnav a.activo {
+    background-color: darkslategrey;
+}
+
+@media screen and (max-width: 700px) {
+    .barnav, .row{
+        flex-direction: column;
+    }
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+aside{
+    flex: 25%;
+    /*height: 400px;*/
+    background-color: white;
+}
+
+aside p{
+    margin: 10px;
+    font-size: 20px;
+}
+
+aside h3{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+}
+
+.main{
+    flex: 75%;
+    height: 400px;
+    background-color: rgb(198, 194, 194);
+}
+
+.main h2{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;    
+}
+
+.main p{
+    margin: 10px;
+    font-size: 20px;
+}
+footer{
+    background-color: black;
+    display: flex;
+    color: white;
+    justify-content: center;
+    /*width: 100%;*/
+    margin-top: 4px;
+    text-align: center;
+}
+
+footer p{
+    font-size: 30px;
+    margin-top: 3px;
+    margin-left: 10px;
+}
+footer i{
+    margin-left: 10px;
+    margin-top: 3px;
+}
+
+.holder {
+    border: solid 3px black;
+    border-radius: 9px;
+    display: block;
+}
+.holder h3 {
+    color: black;
+    border-radius: 3px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+}
+
+.holder p{
+    color: black;
+    border-radius: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+.strato  {
+    border-bottom: solid 3px black;
+    justify-items: center;
+    background: rgb(113,109,109);
+    background: linear-gradient(180deg, rgba(113,109,109,1) 0%, rgba(0,0,0,1) 0%, rgba(245,245,245,1) 100%);;
+}
+
+.tele {
+    border-bottom: solid 3px black;
+    justify-items: center;
+    background: rgb(113,109,109);
+    background: linear-gradient(180deg, rgba(113,109,109,1) 0%, rgba(0,0,0,1) 0%, rgba(245,245,245,1) 100%);    
+}
+
+.lespaul {
+    border-bottom: solid 3px black;
+    justify-items: center;
+    background: rgb(113,109,109);
+    background: linear-gradient(180deg, rgba(113,109,109,1) 0%, rgba(0,0,0,1) 0%, rgba(245,245,245,1) 100%); 
+}
+
+.sg {
+    border-bottom: solid 3px black;
+    justify-items: center;
+    background: rgb(113,109,109);
+    background: linear-gradient(180deg, rgba(113,109,109,1) 0%, rgba(0,0,0,1) 0%, rgba(245,245,245,1) 100%);
+}
+
+.flyingv {
+    border-bottom: solid 3px black;
+    justify-items: center;
+    background: rgb(113,109,109);
+    background: linear-gradient(180deg, rgba(113,109,109,1) 0%, rgba(0,0,0,1) 0%, rgba(245,245,245,1) 100%);
+}
+
+.prs {
+    justify-items: center;
+    background: rgb(113,109,109);
+    background: linear-gradient(180deg, rgba(113,109,109,1) 0%, rgba(0,0,0,1) 0%, rgba(245,245,245,1) 100%);
+}
+
+.acacc  {
+    border-bottom: solid 3px black;
+    justify-items: center;
+    background: rgb(113,109,109);
+    background: linear-gradient(180deg, rgba(113,109,109,1) 0%, rgba(0,0,0,1) 0%, rgba(245,245,245,1) 100%);;
+}
+
+.acasc {
+    border-bottom: solid 3px black;
+    justify-items: center;
+    background: rgb(113,109,109);
+    background: linear-gradient(180deg, rgba(113,109,109,1) 0%, rgba(0,0,0,1) 0%, rgba(245,245,245,1) 100%);    
+}
+
+.acnsc {
+    border-bottom: solid 3px black;
+    justify-items: center;
+    background: rgb(113,109,109);
+    background: linear-gradient(180deg, rgba(113,109,109,1) 0%, rgba(0,0,0,1) 0%, rgba(245,245,245,1) 100%); 
+}
+
+.acncc {
+    border-bottom: solid 3px black;
+    justify-items: center;
+    background: rgb(113,109,109);
+    background: linear-gradient(180deg, rgba(113,109,109,1) 0%, rgba(0,0,0,1) 0%, rgba(245,245,245,1) 100%);
+}
+
+.DoceCajaCarbono  {
+    border-bottom: solid 3px black;
+    justify-items: center;
+    background: rgb(113,109,109);
+    background: linear-gradient(180deg, rgba(113,109,109,1) 0%, rgba(0,0,0,1) 0%, rgba(245,245,245,1) 100%);;
+}
+
+.DoceCuerdasNatural {
+    border-bottom: solid 3px black;
+    justify-items: center;
+    background: rgb(113,109,109);
+    background: linear-gradient(180deg, rgba(113,109,109,1) 0%, rgba(0,0,0,1) 0%, rgba(245,245,245,1) 100%);    
+}
+
+.eacacc {
+    border-bottom: solid 3px black;
+    justify-items: center;
+    background: rgb(113,109,109);
+    background: linear-gradient(180deg, rgba(113,109,109,1) 0%, rgba(0,0,0,1) 0%, rgba(245,245,245,1) 100%); 
+}
+
+.GipsyJazz {
+    border-bottom: solid 3px black;
+    justify-items: center;
+    background: rgb(113,109,109);
+    background: linear-gradient(180deg, rgba(113,109,109,1) 0%, rgba(0,0,0,1) 0%, rgba(245,245,245,1) 100%);
+}
+
+.TipoGodin {
+    border-bottom: solid 3px black;
+    justify-items: center;
+    background: rgb(113,109,109);
+    background: linear-gradient(180deg, rgba(113,109,109,1) 0%, rgba(0,0,0,1) 0%, rgba(245,245,245,1) 100%);
+}
+
+.holder2 {
+    border: solid 3px black;
+    border-radius: 9px;
+    display: block;
+}
+.holder2 h3 {
+    color: black;
+    border-radius: 3px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+}
+
+.holder2 p{
+    color: black;
+    border-radius: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    margin: 20px;
+}
+
+.holder2 ul{
+    font-size: 20px;
+}
+
+.holder3 {
+    border: solid 3px black;
+    border-radius: 9px;
+    display: flex;
+    
+}
+
+.holder3 p{
+    color: black;
+    border-radius: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    margin: 20px;
+}
+
+.accesorios {
+    border: black solid 3px;
+    display: flex;
+    justify-content: center;
+}
+
+.accesorios:hover{
+    border: grey;
+}
+
+.accesorios img:hover {
+    cursor: pointer;
+}

@@ -1,0 +1,64 @@
+header {
+    background: rgb(228, 220, 220);
+    background: linear-gradient(180deg, rgba(228, 220, 220, 1) 36%, rgba(255, 255, 255, 1) 60%, rgba(0, 0, 0, 1) 84%);
+    padding: 0;
+    justify-items: center;
+    border-bottom: solid 4px white;
+}
+
+.holder {
+    padding-top: 10px;
+    
+}
+
+.holder h1 {
+    font-family: "Goldman", serif;
+    padding-left: 63px;
+    color: white;
+    font-size: 45px;
+    padding-top: 0px;
+    white-space: nowrap; /* Evita que el texto se envuelva */
+    overflow: hidden; /* Oculta el texto no revelado */
+    width: 0; /* Inicia con el ancho en 0 (invisible) */
+    animation: typing 3s steps(15) 1s forwards, blink 0.75s step-end infinite; /* Aplica las animaciones */
+    border-right: 4px solid black; /* Efecto del cursor de máquina de escribir */
+}
+
+.holder img{
+    border-radius: 20px;
+    padding: 0;
+    animation: fadeIn 2s ease-out; /* La animación dura 2 segundos */
+    animation-fill-mode: forwards; /* Mantiene el estado final de la animación (opacidad: 1) */
+}
+
+/* Definimos la animación que cambia la opacidad */
+@keyframes fadeIn {
+  0% {
+    opacity: 0; /* Comienza invisible */
+  }
+  100% {
+    opacity: 1; /* Termina completamente visible */
+  }
+}
+
+
+/* Animación de tipo de máquina de escribir */
+@keyframes typing {
+    from {
+      width: 0; /* Comienza con un ancho de 0 */
+    }
+    to {
+      width: 100%; /* Termina con el ancho completo del texto */
+    }
+  }
+  
+  /* Efecto de parpadeo del cursor */
+  @keyframes blink {
+    0%, 100% {
+      border-color: transparent; /* Cursor invisible */
+    }
+    50% {
+      border-color: white; /* Cursor visible */
+    }
+  }
+

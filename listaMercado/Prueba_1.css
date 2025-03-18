@@ -1,0 +1,25 @@
+body {
+    justify-items: center;
+}
+
+.todo {
+    justify-items: center;
+}
+
+.dos {
+    margin-top: 10px;
+}
+
+.tres {
+    border: solid 2px grey;
+    margin-top: 20px;
+    width: 300px;
+    height: 500px;
+    border-radius: 9px;
+}
+
+.pantallita {
+    margin-top: 10px;
+    width: 220px;
+    height: 40px;
+}

@@ -1,0 +1,41 @@
+.barra2 {
+    display: flex;
+    justify-content: center;
+    height: auto;
+    align-items: center;
+    border: solid 2px green;
+    margin-top: 10px;
+}
+
+.navbar2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 800px;
+    border: solid 2px blue;
+}
+
+.botonio {
+    font-family: Orbitron;
+    background-color: black;
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    align-content: center;
+    text-decoration: none;
+    height: 45px;
+}
+
+.botonio:hover {
+    background-color: rgb(54, 54, 54);
+    cursor: pointer;
+}
+
+.active-link {
+    background-color: #007bff; /* Un color para el enlace activo */
+    color: white;
+  }

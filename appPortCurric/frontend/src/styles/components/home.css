@@ -1,0 +1,17 @@
+.contenedorHome {
+    display: flex;
+    flex-direction: column;
+    border: solid 3px red;
+    height: 35vh;
+}
+
+.contenedorHome h3 {
+    font-family: Orbitron;
+    font-size: 20px;
+    
+}
+.contenedorHome ul {
+    list-style: none;
+    font-family: Goldman;
+    font-size: 20px;
+}

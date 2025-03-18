@@ -1,0 +1,19 @@
+body {
+  background-color: black;
+}
+
+#tablero {
+  display: grid;
+  grid-template-columns: repeat(10, 30px);  /* 10 columnas de 30px */
+  grid-template-rows: repeat(10, 30px);     /* 10 filas de 30px */
+  gap: 2px;                                 /* Espacio entre las celdas */
+  width: 320px;                             /* Ancho total del tablero */
+  height: 320px;                            /* Alto total del tablero */
+  margin: 20px auto;
+}
+
+.block {
+  width: 30px; /* Tamaño de cada celda */
+  height: 30px;
+  background-color: #ddd; /* Color de fondo de las celdas vacías */
+}

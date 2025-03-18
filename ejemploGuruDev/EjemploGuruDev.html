@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editor de Header</title>
+    <link rel="stylesheet" href="EjemploGuruDev.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="colUno">
+            <h1>Editor de Header</h1>
+
+            <!-- Campo para ingresar el texto que queremos en el header -->
+            <label for="headerText">Escribe el texto del header:</label>
+            <input type="text" id="headerText" placeholder="Escribe aquí..." value="Primer ensayo GuruDev...">
+
+            <div class="controls">
+                <!-- Controles para el borde, padding, y margin... esto lo armé rapido como para ue lo vieras, debería ser mas completo -->
+                <label for="borderSize">Tamaño del borde (px):</label>
+                <input type="range" id="borderSize" min="1" max="20" value="5">
+
+                <label for="paddingSize">Tamaño del padding (px):</label>
+                <input type="range" id="paddingSize" min="1" max="50" value="20">
+
+                <label for="marginSize">Tamaño del margin (px):</label>
+                <input type="range" id="marginSize" min="1" max="50" value="10">
+
+                <!-- Elegimos color de fondo -->
+                <label for="bgColor">Color de fondo:</label>
+                <input type="color" id="bgColor" value="#ffffff">
+
+                <!-- También color de borde -->
+                <label for="borderColor">Color del borde:</label>
+                <input type="color" id="borderColor" value="#000000">
+
+                <!-- Elegimos la fuente... si cres que esto es viable o que vale la pena vería como linkear desde aca a guguelfonts -->
+                <label for="fontFamily">Selecciona la fuente:</label>
+                <select id="fontFamily">
+                    <option value="Arial, sans-serif">Arial</option>
+                    <option value="'Courier New', Courier, monospace">Courier New</option>
+                    <option value="'Goldman', serif">Goldman</option>
+                </select>
+            </div>
+        </div>
+
+
+        <div class="colDos">
+
+            <!-- Muestra el header con los cambios en tiempo real -->
+            <header id="header">
+                <h2 id="headerTitle">Primer ensayo GuruDev...</h2>
+            </header>
+
+            <!-- El codigo que se va armando conforme  modificamos intuitivamente a traves de la UI -->
+            <div class="code-container">
+                <h2>HTML y CSS del Header</h2>
+
+                <!-- Área de texto para el código HTML -->
+                <textarea id="htmlCode" readonly>
+                    <!-- Código HTML del Header -->
+                    <header id="header">
+                    <h2>Este es el Header</h2>
+</header>
+                    </textarea>
+
+                <!-- Área de texto para el código CSS -->
+                <textarea id="cssCode" readonly>
+                    /* Código CSS del Header */
+                    header {
+                    text-align: center;
+                    padding: 20px;
+                    border: solid 5px black;
+                    border-radius: 8px;
+                    background-color: #ffffff;
+                    }
+                    </textarea>
+
+                <!-- Botón para copiar el código HTML -->
+                <button onclick="copyCode('htmlCode')">Copiar Código HTML</button>
+                <!-- Botón para copiar el código CSS -->
+                <button onclick="copyCode('cssCode')">Copiar Código CSS</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="EjemploGuruDev.js"></script>
+</body>
+
+</html>

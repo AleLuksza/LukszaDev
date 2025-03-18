@@ -1,0 +1,126 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+/* Cuerpo con flexbox para diseño flexible */
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+/* Encabezado principal */
+h1 {
+    font-family: "Oswald", serif;
+    font-weight: 100;
+    font-size: 70px;
+    position: relative;
+    color: aliceblue;
+    margin: 0; /* Asegura que no haya márgenes extra */
+}
+
+/* Encabezado con animación de desvanecimiento */
+.elheader {
+    display: flex;
+    flex-direction: row;
+    height: 150px;
+    position: relative;
+    background-color: blueviolet;
+    margin-top: 4px;
+    opacity: 0;
+    animation: fadeIn 2s ease-in-out forwards;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Animación de fade-in para elheader */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+/* Subencabezado con borde */
+.subheader {
+    border-left: solid 3px white;
+    border-right: solid 3px white;
+    width: 500px;
+    display: flex;
+    align-items: center; /* Centra verticalmente */
+    justify-content: center; /* Centra horizontalmente */
+    height: 120px;
+    margin: 0 auto; /* Centra el subheader si es necesario */
+}
+
+/* Footer general */
+.furer {
+    display: flex;
+    background-color: blueviolet;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 120px;
+    margin-top: auto; /* Asegura que el footer se mantenga al final */
+}
+
+/* Subfooter */
+.subfurer {
+    border-left: solid 3px white;
+    border-right: solid 3px white;
+}
+
+.subfurer p {
+    color: white;
+    font-size: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+/* Para que el footer esté siempre en la parte inferior */
+footer {
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.contene {
+    display: flex;
+    flex-direction: column;
+    background-color: blueviolet;
+    border-top: 4px solid white;
+}
+
+.contene h3 {
+    color: white;
+    margin-left: 8px;
+    font: 8px;
+}
+
+.losvi {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.losvi img {
+    border-radius: 10px;
+}
+
+.videoindi {
+    display: flexbox;
+    flex-direction: column;
+}
+
+.videoindi p {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
