@@ -60,6 +60,9 @@ const Formacion = (props) => {
                     <li>Bootstrap</li>
                     <li>Responsive Design</li>
                     <li>MVC</li>
+                    <li>Git</li>
+                    <li>GitHub</li>
+                    <li>Express</li>
                 </ul>
             </aside>
         </div>

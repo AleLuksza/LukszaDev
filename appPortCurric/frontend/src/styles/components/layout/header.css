@@ -6,12 +6,12 @@ header {
     border-bottom: solid 4px white;
 }
 
-.holder {
+.contenHeader {
     padding-top: 10px;
     
 }
 
-.holder h1 {
+.contenHeader h1 {
     font-family: "Goldman", serif;
     padding-left: 63px;
     color: white;
@@ -24,7 +24,7 @@ header {
     border-right: 4px solid black; /* Efecto del cursor de máquina de escribir */
 }
 
-.holder img{
+.contenHeader img{
     border-radius: 20px;
     padding: 0;
     animation: fadeIn 2s ease-out; /* La animación dura 2 segundos */

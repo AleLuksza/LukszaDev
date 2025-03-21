@@ -10,6 +10,14 @@ body {
     height: 100vh;
 }
 
+.contePrincipal {
+    display: flex;
+    flex-direction: column;
+    border: solid 2px black;
+    padding: 20px;
+    border-radius: 9px;
+}
+
 /* Contenedor principal */
 #counter {
     font-size: 20px;

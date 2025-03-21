@@ -5,7 +5,7 @@ const Footer = (props) => {
     return (
         <div className='contenFooter'>
             <div className='elFooter'>
-               <p>Desarrollado por Alexis Luksza 2025</p>
+               <p>Desarrollado por LukszaDev 2025</p>
             </div>
         </div>
     );

@@ -21,15 +21,13 @@ function App() {
         <Nav2 />
         {/* Definimos las rutas y los componentes correspondientes */}
         <Routes>
-          <Route path="/home" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/formacion" element={<Formacion />} />
-          <Route path="/desarrollos" element={<Desarrollos />} />
+          <Route path="/desarrollos/*" element={<Desarrollos />} />
           <Route path="/contacto" element={<Contacto />} />
         </Routes>
-        <Nav />
-
-
         <Footer />
+        <Nav />
       </div>
     </Router>
   );

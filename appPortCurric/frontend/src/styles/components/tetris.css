@@ -1,0 +1,45 @@
+.contenTetris {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.imagenTetris {
+    border: solid 3px rgb(60, 60, 60);
+    border-radius: 9px;
+    margin-right: 10px;
+}
+
+.descripTetris {
+    border: solid 2px rgb(62, 62, 62);
+    border-radius: 9px;
+    width: 400px;
+    padding-left: 20px;
+    padding-right: 20px;
+    align-content: center;
+    justify-content: center;
+}
+
+.enlaceTetris {
+    border: solid 1px black;
+    margin-left: 140px;
+    font-family: Orbitron;
+    height: 35px;
+    width: 200px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    transition: 0.4s ease;
+}
+
+.enlaceTetris:hover {
+    background-color: blueviolet;
+    padding-right: 15px;
+    padding-left: 15px;
+    
+}

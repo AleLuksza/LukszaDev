@@ -1,0 +1,76 @@
+.pesaje {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 0;
+    border: 3px solid gray;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: black;
+}
+
+.display {
+    margin-top: 10px;
+    height: 75px;
+    width: 300px;
+    font-size: 100px;
+    text-align: center;
+    border-right: 3px solid white;
+    border-bottom: 3px solid white;
+    border-radius: 6px;
+    
+}
+.botonito {
+    margin-top: 20px;
+    width: 100px;
+    height: 25px;
+    background-color: rgb(81, 81, 81);
+    border-radius: 6px;
+    
+}
+
+.laDevolucion {
+    border: solid 3px white;
+    background-color: black;
+    justify-items: center;
+    height: 100px;
+    border-radius: 6px;
+    font-family: Orbitron;
+    
+    
+}
+
+.laDevolucion p {
+    color: white;
+    font-size: 30px;
+    
+}
+
+.botonito:hover {
+    background-color: darkslategrey;
+}
+
+.ingrese {
+    color: white;
+    padding-left: 100px;
+}
+
+.elementosPesaje {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.elementosPesaje p {
+    padding-right: 100px;
+    font-family: Orbitron;   
+    justify-content: center;
+}
+
+.codigoComponente {
+    display: block;
+    color: antiquewhite;
+    border: solid 2px white;
+    padding-left: 370px;
+    border-radius: 9px;
+}
