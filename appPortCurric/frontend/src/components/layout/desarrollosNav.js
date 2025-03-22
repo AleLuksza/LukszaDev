@@ -9,13 +9,16 @@ const DesarrollosNav = () => {
         <nav>
           <ul>
             <li>
-              <NavLink to="/desarrollos/categoriaUFC" className="nav-item">Categorias UFC</NavLink>
+              <NavLink to="/desarrollos/categoriaUFC" className="nav-item">Categorías UFC</NavLink>
             </li>
             <li>
            <NavLink to="/desarrollos/tetris" className="nav-item">Tetris</NavLink>
            </li>
            <li>
             <NavLink to="/desarrollos/calculadora" className="nav-item">Calculadora</NavLink>
+           </li>
+           <li>
+            <NavLink to="/desarrollos/snake" className="nav-item">Snake</NavLink>
            </li>
             {/* Agrega más proyectos aquí */}
           </ul>

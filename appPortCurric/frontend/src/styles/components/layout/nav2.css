@@ -30,7 +30,7 @@
     text-decoration: none;
     height: 45px;
     transform-style: preserve-3d; 
-    transition: transform 1s ease; /* Transición suave */
+    transition: all 0.3s ease;
    /* transform: rotateX(0deg); Gira el botón 180 grados en el eje Y */
     
 }
@@ -60,4 +60,36 @@
   
   /* Opcionalmente puedes añadir otros estilos de hover para el botón activo */
   
+  @media (max-width: 768px) {
+    /* Cambiar la dirección de la barra de navegación en pantallas más pequeñas */
+    .navbar2 {
+        flex-direction: column;
+        width: 100%; /* La barra de navegación ocupará todo el ancho */
+        align-items: center; /* Centrar los botones */
+    }
 
+    /* Ajustar los botones para que se apilen en lugar de estar en fila */
+    .botonio {
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 10px; /* Espaciado entre los botones */
+        width: 80%; /* Los botones ocupan el 80% del ancho del contenedor */
+        text-align: center; /* Centrar el texto dentro del botón */
+    }
+
+    /* Cambiar el tamaño de los botones en pantallas pequeñas */
+    .botonio {
+        padding-left: 20px;
+        padding-right: 20px;
+        height: 40px;
+        font-size: 14px; /* Ajustar el tamaño de la fuente */
+    }
+}
+
+/* En pantallas muy pequeñas (móviles), puedes hacer que los botones ocupen más espacio */
+@media (max-width: 480px) {
+    .botonio {
+        width: 90%; /* Los botones ocupan casi todo el ancho en pantallas muy pequeñas */
+        font-size: 16px; /* Ajustar el tamaño de la fuente para pantallas más pequeñas */
+    }
+}

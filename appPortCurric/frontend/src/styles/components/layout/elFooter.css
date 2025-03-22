@@ -18,3 +18,40 @@
     background: rgb(252,252,252);
 background: linear-gradient(90deg, rgba(252,252,252,1) 0%, rgba(0,0,0,1) 40%, rgba(0,0,0,1) 60%, rgba(252,252,252,1) 100%, rgba(255,255,255,1) 100%);
 }
+
+/* Bloque responsive */
+@media (max-width: 768px) {
+    .elFooter {
+        font-size: 30px; /* Reducir el tamaño de la fuente en pantallas más pequeñas */
+        padding: 10px; /* Añadir un poco de padding para más espacio */
+    }
+
+    .contenFooter {
+        flex-direction: column; /* Cambiar a columna si el footer tiene más de un elemento */
+        padding: 20px 10px; /* Añadir un poco de espacio alrededor del contenido */
+        background: linear-gradient(180deg, rgba(252,252,252,1) 0%, rgba(0,0,0,1) 50%, rgba(252,252,252,1) 100%); /* Cambiar la dirección del gradiente */
+    }
+
+    .elFooter p {
+        font-size: 25px; /* Reducir aún más el tamaño de la fuente en pantallas pequeñas */
+        text-align: center; /* Centrar el texto en pantallas pequeñas */
+    }
+}
+
+@media (max-width: 480px) {
+    .elFooter {
+        font-size: 24px; /* Reducir aún más el tamaño de la fuente en móviles */
+        padding: 5px; /* Reducir el padding para ahorrar espacio */
+    }
+
+    .contenFooter {
+        flex-direction: column;
+        padding: 10px 5px; /* Ajustar el padding en pantallas muy pequeñas */
+        background: linear-gradient(180deg, rgba(252,252,252,1) 0%, rgba(0,0,0,1) 50%, rgba(252,252,252,1) 100%); /* Mantener el gradiente */
+    }
+
+    .elFooter p {
+        font-size: 20px; /* Ajustar el tamaño de la fuente en pantallas muy pequeñas */
+        text-align: center; /* Asegurarse de que el texto esté centrado */
+    }
+}

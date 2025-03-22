@@ -36,3 +36,35 @@
     transition: background-color 0.4s ease; 
     transition: border-radius 0.4s ease;
 }
+
+@media (max-width: 768px) {
+    /* Cambiar la dirección de los elementos a columna en pantallas pequeñas */
+    .desarrollosNav {
+        flex-direction: column;
+        padding: 10px 0; /* Añadir un poco de espaciado vertical */
+    }
+
+    .desarrollosNav ul {
+        flex-direction: column; /* Apilar los elementos verticalmente */
+        align-items: center; /* Centrar los elementos en la columna */
+        margin-top: 20px;
+    }
+
+    .nav-item {
+        width: 80%; /* Los elementos ocuparán el 80% del ancho */
+        margin: 10px 0; /* Espaciado entre los elementos verticalmente */
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 14px; /* Ajustar el tamaño de la fuente en dispositivos pequeños */
+        height: 40px; /* Ajustar la altura del botón */
+    }
+}
+
+@media (max-width: 480px) {
+    /* Para pantallas más pequeñas como móviles */
+    .nav-item {
+        width: 90%; /* Los elementos ocuparán el 90% del ancho en móviles */
+        font-size: 16px; /* Ajustar el tamaño de la fuente para pantallas más pequeñas */
+        height: 50px; /* Aumentar la altura para que el texto sea más visible */
+    }
+}

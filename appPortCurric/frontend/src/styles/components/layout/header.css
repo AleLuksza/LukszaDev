@@ -1,64 +1,98 @@
 header {
-    background: rgb(228, 220, 220);
-    background: linear-gradient(180deg, rgba(228, 220, 220, 1) 36%, rgba(255, 255, 255, 1) 60%, rgba(0, 0, 0, 1) 84%);
-    padding: 0;
-    justify-items: center;
-    border-bottom: solid 4px white;
+  background: rgb(228, 220, 220);
+  background: linear-gradient(180deg, rgba(228, 220, 220, 1) 36%, rgba(255, 255, 255, 1) 60%, rgba(0, 0, 0, 1) 84%);
+  padding: 0;
+  justify-items: center;
+  border-bottom: solid 4px white;
 }
 
 .contenHeader {
-    padding-top: 10px;
-    
+  padding-top: 10px;
+  
 }
 
 .contenHeader h1 {
-    font-family: "Goldman", serif;
-    padding-left: 63px;
-    color: white;
-    font-size: 45px;
-    padding-top: 0px;
-    white-space: nowrap; /* Evita que el texto se envuelva */
-    overflow: hidden; /* Oculta el texto no revelado */
-    width: 0; /* Inicia con el ancho en 0 (invisible) */
-    animation: typing 3s steps(15) 1s forwards, blink 0.75s step-end infinite; /* Aplica las animaciones */
-    border-right: 4px solid black; /* Efecto del cursor de máquina de escribir */
+  font-family: "Goldman", serif;
+  padding-left: 63px;
+  color: white;
+  font-size: 45px;
+  padding-top: 0px;
+  white-space: nowrap; /* Evita que el texto se envuelva */
+  overflow: hidden; /* Oculta el texto no revelado */
+  width: 0; /* Inicia con el ancho en 0 (invisible) */
+  animation: typing 3s steps(15) 1s forwards, blink 0.75s step-end infinite; /* Aplica las animaciones */
+  border-right: 4px solid black; /* Efecto del cursor de máquina de escribir */
 }
 
 .contenHeader img{
-    border-radius: 20px;
-    padding: 0;
-    animation: fadeIn 2s ease-out; /* La animación dura 2 segundos */
-    animation-fill-mode: forwards; /* Mantiene el estado final de la animación (opacidad: 1) */
+  border-radius: 20px;
+  padding: 0;
+  animation: fadeIn 2s ease-out; /* La animación dura 2 segundos */
+  animation-fill-mode: forwards; /* Mantiene el estado final de la animación (opacidad: 1) */
 }
 
 /* Definimos la animación que cambia la opacidad */
 @keyframes fadeIn {
-  0% {
-    opacity: 0; /* Comienza invisible */
-  }
-  100% {
-    opacity: 1; /* Termina completamente visible */
-  }
+0% {
+  opacity: 0; /* Comienza invisible */
+}
+100% {
+  opacity: 1; /* Termina completamente visible */
+}
 }
 
 
 /* Animación de tipo de máquina de escribir */
 @keyframes typing {
-    from {
-      width: 0; /* Comienza con un ancho de 0 */
-    }
-    to {
-      width: 100%; /* Termina con el ancho completo del texto */
-    }
+  from {
+    width: 0; /* Comienza con un ancho de 0 */
   }
-  
-  /* Efecto de parpadeo del cursor */
-  @keyframes blink {
-    0%, 100% {
-      border-color: transparent; /* Cursor invisible */
-    }
-    50% {
-      border-color: white; /* Cursor visible */
-    }
+  to {
+    width: 100%; /* Termina con el ancho completo del texto */
+  }
+}
+
+/* Efecto de parpadeo del cursor */
+@keyframes blink {
+  0%, 100% {
+    border-color: transparent; /* Cursor invisible */
+  }
+  50% {
+    border-color: white; /* Cursor visible */
+  }
+}
+
+@media (max-width: 768px) {
+  header {
+      padding: 10px; /* Añadir padding para más espacio en pantallas pequeñas */
   }
 
+  .contenHeader h1 {
+      font-size: 36px; /* Reducir el tamaño de la fuente en pantallas pequeñas */
+      padding-left: 20px; /* Reducir el espacio a la izquierda */
+      white-space: normal; /* Permitir que el texto se ajuste en pantallas más pequeñas */
+  }
+
+  .contenHeader img {
+      width: 100%; /* Hacer que la imagen ocupe todo el ancho disponible */
+      height: auto; /* Mantener la proporción de la imagen */
+      border-radius: 10px; /* Ajustar el radio de borde */
+      padding: 10px 0; /* Añadir un poco de espacio vertical */
+  }
+}
+
+@media (max-width: 480px) {
+  header {
+      padding: 20px; /* Espacio adicional en pantallas más pequeñas */
+  }
+
+  .contenHeader h1 {
+      font-size: 28px; /* Reducir aún más el tamaño de la fuente */
+      padding-left: 10px; /* Ajustar aún más el padding */
+  }
+
+  .contenHeader img {
+      width: 100%; /* La imagen debe ocupar todo el ancho */
+      border-radius: 8px; /* Ajuste adicional en el radio del borde */
+  }
+}

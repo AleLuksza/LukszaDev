@@ -11,12 +11,14 @@ const Calculadora = () => {
             <main className="descripTetris">
                 <h3>Calculadora basica</h3>
                 <p className="parrafoTetris">
-                    Caluladora basica desarrollada en HTML5, CSS3 y JavaScript. La misma cuenta con las operaciones basicas de la aritmética pero haciendo uso en su desarrollo
-                    del metodo <b>eval</b> para reducir significativamente lacantidad de lineas de codigo empleadas para el script.
-                    Otro desarrollo para aplicar logica de programación, refactorizacion del codigo y generar una interfaz grafica acorde al objetivo del componente.
+                    Caluladora básica desarrollada en HTML5, CSS3 y JavaScript. La misma cuenta con las operaciones basicas de la aritmética pero haciendo uso en su desarrollo
+                    del método <b>eval</b> para reducir significativamente la cantidad de líneas de código empleadas para el script.
+                    Otro desarrollo para aplicar lógica de programación, refactorización del código y generar una interfaz grafica acorde al objetivo del componente.
                 </p>
-
+                <div className="enlaces">
                 <a href="https://github.com/AleLuksza/LukszaDev/tree/main/Calculadora" target="blank" className="enlaceTetris">Link a Github</a>
+                <a href="https:/aleluksza.github.io/Calculadora" target="blank" className="enlaceTetris">Calculadora</a>
+                </div>
             </main>
         </div>
     )

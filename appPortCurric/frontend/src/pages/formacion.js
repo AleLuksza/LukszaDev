@@ -11,11 +11,11 @@ const Formacion = (props) => {
                     <li><b>Universidad Nacional de General San Martín:</b><br></br>
                         Licenciatura en filosofía: Inconcluso.
                     </li><br></br>
-                    <li><b>Universidad Tecnologica Nacional:</b><br></br>
+                    <li><b>Universidad Tecnológica Nacional:</b><br></br>
                         Diplomatura en desarrollo Full-Stack: Finalizado
                     </li><br></br>
-                    <li><b>Universidad Tecnologica Nacional:</b><br></br>
-                        Tecnicatura Superior en Informatica Aplicada: En curso.<br></br>
+                    <li><b>Universidad Tecnológica Nacional:</b><br></br>
+                        Tecnicatura Superior en Informática Aplicada: En curso.<br></br>
                     </li>
                 </ul>
 
@@ -23,23 +23,23 @@ const Formacion = (props) => {
                 <h3>Experiencia laboral:</h3>
                 <ul className='listaLaboral'>
                     <li><b>Opticas Vacance:</b><br></br>
-                        Cadetería y atencion al publico ingles/castellano.<br></br>
+                        Cadetería y atencioón al público inglés/castellano.<br></br>
                         2002-2003
                     </li><br></br>
                     <li><b>Sport Trends Argentina:</b><br></br>
-                        Operario Textil en produccion.<br></br>
+                        Operario Textil en producción.<br></br>
                         Despacho y seguimiento de cortes.<br></br>
                         Control de calidad de prendas en proceso y terminada.<br></br>
                         2003-2010
                     </li><br></br>
                     <li><b>Volkswagen Argentina:</b><br></br>
-                        Operario de producción en linea de montaje.<br></br>
+                        Operario de producción en línea de montaje.<br></br>
                         Desarrollo y construcción de mobiliario tubular<br></br>
                         atendiendo las demandas de cada sector.<br></br>
                         2010-2024
                     </li>
                 </ul>
-                {/* Agrega más contenido aquí según lo que desees mostrar en la página */}
+              
             </main>
 
             <aside className="sidebar">
