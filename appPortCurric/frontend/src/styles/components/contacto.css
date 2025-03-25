@@ -1,0 +1,52 @@
+.contato {
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;  /* Centra verticalmente */
+    align-items: center;      /* Centra horizontalmente */
+}
+
+.elhachedos {
+    font-family: orbitron;  /* Asegúrate de que tenga la unidad px */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra los elementos horizontalmente */
+}
+
+input, textarea {
+    width: 400px;
+    margin-top: 15px;
+}
+
+input {
+    height: 25px;
+   
+}
+
+textarea {
+    height: 200px;
+    border-top: white;
+    border-left: white;
+    border-radius: 5px;
+}
+
+.leBoton {
+    width: 130px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.leBoton:hover {
+    background-color: rgb(56, 56, 56);
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.losinpu {
+    border-top: white;
+    border-left: white;
+    border-radius: 5px;
+}
